@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  border: black solid 2px;
+  border-bottom: none;
+}
+
+h1 {
+  margin: 0px;
+}
+
+nav {
+  margin-left: auto;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+
+img {
+  height: 20px;
+  width: 20px;
+}
+
+.frontend-Developer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+  border: solid black 2px;
+  border-top: none;
+}
+
+
+h2 {
+  font-family: "Sour Gummy", sans-serif;
+  font-size: 40px;
+}
+
+.h2-description {
+  color: gray;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+}
