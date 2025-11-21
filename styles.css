@@ -46,7 +46,7 @@ img {
 
 h2 {
   font-family: "Sour Gummy", sans-serif;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .h2-description {
@@ -56,5 +56,116 @@ h2 {
 .wrapper {
   display: flex;
   flex-direction: row;
-  height: 300px;
+  height: 450px;
+  border-bottom: black solid 2px;
+}
+
+.project-section {
+  border-right: black solid 2px;
+  width: 30%;
+  border-left: black solid 2px;
+}
+
+.project-list {
+  padding-left: 0px;
+  list-style-type: none;
+  margin: none;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.project-list li {
+  padding-left: 60px;
+  border-top: solid black 2px;
+  padding-top: 15px;
+}
+
+h3 {
+  padding-left: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: none;
+  font-size: 38px;
+  font-family: "Sour Gummy", sans-serif;
+}
+
+.work-experience-section {
+  border-right: black solid 2px;
+  width: 40%;
+}
+
+.roadmap-div {
+  padding-left: 60px;
+  border-bottom: black solid 2px;
+  padding-bottom: 15px;
+}
+
+.opensource-div {
+  padding-left: 60px;
+  width: 325px;
+
+}
+
+h4 {
+  font-family: "Sour Gummy", sans-serif;
+  font-size: 20px;
+}
+
+.education-section {
+  width: 30%;
+
+}
+
+.education-div {
+  padding-left: 60px;
+}
+
+.education-list {
+  padding-left: 20px;
+}
+
+.reviews-title {
+  display: flex;
+  justify-content: center;
+}
+
+.reviews-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 15%;
+  justify-content: center;
+  height: 400px;
+}
+
+.review {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: black solid 2px;
+  width: 250px;
+  height: 250px;
+  border-radius: 25px;
+  color: gray;
+  font-weight: bold;
+}
+
+.review-desc {
+  color: black;
+  padding-top: 10px;
+}
+
+footer {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  font-family: "Sour Gummy", sans-serif;
+  font-size: 32px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  border-top: black solid 2px;
+  border-bottom: black solid 2px;
 }
